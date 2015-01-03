@@ -1,0 +1,19 @@
+{
+  "name": "bridges-controller",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-6to5": "^2.0.0"
+  },
+  "dependencies": {
+    "require-all": "^1.0.0"
+  }
+}
