@@ -22,7 +22,7 @@ BridgesController.load = function (options) {
     };
   }
   var objects = requireAll(requireOptions);
-  for (name in objects) {
+  for (var name in objects) {
     controllers[toCamelCase(name)] = objects[name];
   }
   return controllers;
